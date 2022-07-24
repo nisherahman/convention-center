@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.moment-h2-col{
+    color:#0A0826;
+}
+.moment-p-col{
+    color: #6C6C6C;
+}
+/* common css ends */
+
+/* navbar part starts */
+
+/* navbar part ends */
+
+/* banner part starts */
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5 {
+	margin-top: -237px;
+	padding: 0 180px;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p {
+	padding: 0 246px;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption button{
+    padding: 10px 40px;
+}
+.carousel-indicators [data-bs-target] {
+	margin-bottom: 5px;
+}
+/* banner part ends */
+
+/* moment part starts */
+.moment-section{
+    margin-top:90px;
+    margin-bottom:105px !important;
+}
+.moment-text{
+    margin-left:7px;
+}
+/* moment part ends */
+
+/* package part starts */
+.package-item{
+    transition:all linear 0.4s;
+    -webkit-transition:all linear 0.4s;
+    -moz-transition:all linear 0.4s;
+    -ms-transition:all linear 0.4s;
+    -o-transition:all linear 0.4s;
+}
+/* .package-item:hover{
+    margin-top:-5px;
+} */
+.package-item{
+    margin-top:190px;
+    transition:all linear 0.4s;
+    -webkit-transition:all linear 0.4s;
+    -moz-transition:all linear 0.4s;
+    -ms-transition:all linear 0.4s;
+    -o-transition:all linear 0.4s;
+    border:none;
+}
+.package-item:hover{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.package-item .card-body{
+    padding:30px;
+    /* border-radius: 30px; */   
+}
+.package-item .card-body h5{
+    font-size:30px;
+    color: #231D4F;
+}
+.package-item .card-body h4{
+    font-size:27px;
+    color: #231D4F;
+}
+.package-item.card-body p{
+    font-size:15px;
+    color: #848199;
+}
+.package-item .card-body ul{
+    list-style: none;
+    font-size:15px;
+    color: #848199;
+    margin-left:-30px;
+}
+.package-item .card-body ul li a{
+    color: #5243C2;
+    background: #E5E5E5;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    margin-right:10px;
+}
+.package-item .card-body ul li a i {
+	width: 24px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 15px;
+}
+.package-item .card-body button{
+    border:none;
+}
+.package-item .card-body .btn {
+	padding: 8px 57px;
+    background: rgba(244, 150, 209,0.5);
+}
+.package-item .card-body span {
+	right: 7px;
+}
+/* package part ends */
+
+/* client part ends */
+.client-section{
+    margin-top:130px;
+    margin-bottom:100px !important
+}
+.card{
+    border:none;
+}
+.client-item {
+	width: 330px !important;
+	height: 326px;
+	box-shadow: 1px 2px 7px rgba(0, 0, 0,0.5);
+    margin-top:95px;
+}
+/* client part ends */
+
+/* question part starts */
+.question-section .question-text{
+    margin-bottom:130px !important;
+}
+/* question part ends */
+
+/* footer part starts */
+footer{
+    background: #0A0826;
+    margin-top:140px;
+}
+footer .footer-text{
+    padding-top:100px;
+    padding-bottom:100px!important
+}
+/* footer part ends */
+
+
+

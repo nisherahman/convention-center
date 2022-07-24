@@ -1,0 +1,15 @@
+/* small device part starts */
+
+@media (min-width:576px) and (max-width:767px){
+    /* banner part starts */
+    #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+        padding:0;
+    }
+    #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p {
+        padding: 0 0px;
+    }
+}
+
+
+
+/* small device part starts */
