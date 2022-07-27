@@ -12,6 +12,18 @@
 .moment-p-col{
     color: #6C6C6C;
 }
+.btn-color{
+    background:#00d2d3;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.btn-color:hover{
+    background:#00d2d3;
+    color:#fff;
+}
 /* common css ends */
 
 /* navbar part starts */
@@ -45,31 +57,33 @@
 /* moment part ends */
 
 /* package part starts */
-.package-item{
-    transition:all linear 0.4s;
-    -webkit-transition:all linear 0.4s;
-    -moz-transition:all linear 0.4s;
-    -ms-transition:all linear 0.4s;
-    -o-transition:all linear 0.4s;
+.package-section h2{
+    margin-bottom:190px !important;
 }
-/* .package-item:hover{
-    margin-top:-5px;
-} */
 .package-item{
-    margin-top:190px;
+    /* margin-top:190px; */
     transition:all linear 0.4s;
     -webkit-transition:all linear 0.4s;
     -moz-transition:all linear 0.4s;
     -ms-transition:all linear 0.4s;
     -o-transition:all linear 0.4s;
-    border:none;
 }
 .package-item:hover{
+    margin-top:-90px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    background: #00d2d3;
+}
+.package-item .card-body h5:hover,
+.package-item .card-body h4:hover,
+.package-item .card-body p:hover,
+.package-item .card-body ul li:hover,
+.package-item .card-body .btn:hover
+{
+    color:#fff !important;
 }
 .package-item .card-body{
     padding:30px;
@@ -115,10 +129,31 @@
 }
 .package-item .card-body .btn {
 	padding: 8px 57px;
-    background: rgba(244, 150, 209,0.5);
+    background: rgba(223, 249, 251,0.6);
 }
 .package-item .card-body span {
-	right: 7px;
+    right: 7px;
+    opacity:0;
+    transition:all linear o.4s;
+    -webkit-transition:all linear o.4s;
+    -moz-transition:all linear o.4s;
+    -ms-transition:all linear o.4s;
+    -o-transition:all linear o.4s;
+}
+.package-item .card-body span:hover{
+    opacity: 1;
+}
+#package-hover{
+    border-radius: 30px;
+    background: #00d2d3;
+}
+#package-hover .card-body h5,
+#package-hover .card-body h4,
+#package-hover .card-body p,
+#package-hover .card-body ul li,
+#package-hover .card-body .btn
+{
+    color:#fff !important;
 }
 /* package part ends */
 
@@ -154,6 +189,15 @@ footer .footer-text{
     padding-bottom:100px!important
 }
 /* footer part ends */
+
+.toast{
+    width: 260px;
+    border-left: 5px solid #4f59e0;
+}
+.fa-gift{
+    font-size: 20px;
+    color:#00d2d3;
+}
 
 
 

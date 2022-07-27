@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Convention center</title>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/8877dd8455.js" crossorigin="anonymous"></script>
     <!-- bootstrap css link -->
@@ -90,7 +90,7 @@
     <!-- banner part ends -->
 
     <!-- moment part starts -->
-    <section class="moment-section">
+    <section class="moment-section position-relative">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -102,115 +102,101 @@
             <div class="moment-text">
               <h2 class="fw-bold moment-h2-col">Every moment is Precious</h2>
               <p class="fw-bold moment-p-col">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-              <button class="btn btn-primary rounded-0 text-white fw-bold mt-2" type="submit">Explore our album <i class="ms-3 fa-solid fa-arrow-right-long"></i></button>
+              <div class="toast position-absolute show top-0 end-0 mt-5" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto"><i class="fa-solid fa-gift"></i> 20% off on next booking</strong>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+              </div>
+              <button class="btn btn-color rounded-0 text-white fw-bold mt-2" type="submit">Explore our album <i class="ms-3 fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
-          <!-- <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <img src="..." class="rounded me-2" alt="...">
-              <strong class="me-auto">Bootstrap</strong>
-              <small>11 mins ago</small>
-              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-              Hello, world! This is a toast message.
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
     <!-- moment part ends -->
 
     <!-- package part starts -->
-    <section class="package-section">
+    <section>
       <div class="container">
-        <h2 class="text-center fw-bold">Our package</h2>
         <div class="row">
 
-          <div class="col-lg-3">
-            <div class="card-item position-relative">
-              <div class="card package-item" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title fw-semibold">$300</h5>
-                  <h4 class="mt-3">Business fair</h4>
-                  <p class="mt-3">For most businesses event
-                    like book fair, craft fair</p>
-                  <ul>
-                    <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>event support</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
-                  </ul>
-                  <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
-                  <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
-                </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="card package-item position-relative" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">$300</h5>
+                <h4 class="mt-3">Business fair</h4>
+                <p class="mt-3">For most businesses event
+                  like book fair, craft fair</p>
+                <ul>
+                  <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>event support</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
+                </ul>
+                <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
+                <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3">
-            <div class="card-item position-relative">
-              <div class="card package-item" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title fw-semibold">$300</h5>
-                  <h4 class="mt-3">Business fair</h4>
-                  <p class="mt-3">For most businesses event
-                    like book fair, craft fair</p>
-                  <ul>
-                    <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>event support</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
-                  </ul>
-                  <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
-                  <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
-                </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card package-item position-relative" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">$300</h5>
+                <h4 class="mt-3">Business fair</h4>
+                <p class="mt-3">For most businesses event
+                  like book fair, craft fair</p>
+                <ul>
+                  <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>event support</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
+                </ul>
+                <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
+                <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3">
-            <div class="card-item position-relative">
-              <div class="card package-item " style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title fw-semibold">$300</h5>
-                  <h4 class="mt-3">Business fair</h4>
-                  <p class="mt-3">For most businesses event
-                    like book fair, craft fair</p>
-                  <ul>
-                    <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>event support</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
-                  </ul>
-                  <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
-                  <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
-                </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card package-item position-relative" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">$300</h5>
+                <h4 class="mt-3">Business fair</h4>
+                <p class="mt-3">For most businesses event
+                  like book fair, craft fair</p>
+                <ul>
+                  <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>event support</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
+                </ul>
+                <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
+                <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
               </div>
             </div>
           </div>
-          
-          <div class="col-lg-3">
-            <div class="card-item position-relative">
-              <div class="card package-item" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title fw-semibold">$300</h5>
-                  <h4 class="mt-3">Business fair</h4>
-                  <p class="mt-3">For most businesses event
-                    like book fair, craft fair</p>
-                  <ul>
-                    <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>event support</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
-                    <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
-                  </ul>
-                  <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
-                  <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
-                </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card package-item position-relative" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">$300</h5>
+                <h4 class="mt-3">Business fair</h4>
+                <p class="mt-3">For most businesses event
+                  like book fair, craft fair</p>
+                <ul>
+                  <li><a><i class="fa-solid fa-check"></i></a>limited space access</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Secuirty facility</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>event support</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Decoration design</li>
+                  <li><a><i class="fa-solid fa-check"></i></a>Per day bill</li>
+                </ul>
+                <button class="btn text-primary rounded-pill fw-bold mt-2" type="submit">Choose Plan<button>
+                <span class="position-absolute top-0 p-2 translate-middle badge rounded-pill bg-danger">Hot</span>
               </div>
             </div>
           </div>
@@ -218,6 +204,8 @@
         </div>
       </div>
     </section>
+
+
     <!-- package part ends -->
 
     <!-- client part starts -->
@@ -225,7 +213,7 @@
       <div class="container">
         <h2 class="text-center fw-bold">Happy Clients Says</h2>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card client-item" style="width: 18rem;">
               <div class="card-body text-center">
                 <p class="card-text fw-normal">Slate helps you see how
@@ -238,8 +226,7 @@
               </div>
             </div>
           </div>
-  
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card client-item" style="width: 18rem;">
               <div class="card-body text-center">
                 <p class="card-text">Slate helps you see how
@@ -252,8 +239,7 @@
               </div>
             </div>
           </div>
-  
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card client-item" style="width: 18rem;">
               <div class="card-body text-center">
                 <p class="card-text">Slate helps you see how
@@ -266,9 +252,7 @@
               </div>
             </div>
           </div>
-
         </div>
-       
       </div>
     </section>
     <!-- clint part ends -->
